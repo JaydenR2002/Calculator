@@ -19,7 +19,22 @@ public class Main {
 
         if (rekenuit == "+");
         {
-            System.out.println("Het antwoord is " + (getal1 + getal2));
+            System.out.println("Het antwoord is opgeteld: " + (getal1 + getal2));
+        }
+
+        if (rekenuit == "-");
+        {
+            System.out.println("Het antwoord is na het erafhalen: " + (getal1 - getal2));
+        }
+
+        if (rekenuit == "/");
+        {
+            System.out.println("Het antwoord is na het delen: " + (getal1 / getal2));
+        }
+
+        if (rekenuit == "*");
+        {
+            System.out.println("Het antwoord is na het getal .. x .. " + (getal1 * getal2));
         }
 
     }
